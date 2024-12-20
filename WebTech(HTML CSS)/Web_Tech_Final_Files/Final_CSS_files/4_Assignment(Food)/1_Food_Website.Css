@@ -1,0 +1,77 @@
+body{
+	font-family: cursive;
+}
+.nav{
+	font-size: 20px;
+	background-color:orangered;
+	text-decoration: none;
+	padding:20px 150px 20px 0px;	
+}
+.nav a{
+	color:black;
+	text-decoration: none;
+}
+.img_1{
+	height: 550px;
+	width: 680px;
+	float: right;	
+}
+.new{
+	background-color: lightgreen;
+	padding:73px 0px;
+}
+.head1{
+	padding:30px 0px 10px 60px;
+	font-size: 30px;
+}
+.para1{
+	padding:10px 750px 0px 60px;
+}
+.button1{
+	height:50px;
+	width:230px;
+	background-color: orangered;
+	text-decoration: none;
+	border: none;
+	margin:10px 60px;
+}
+.button1 a{
+	text-decoration: none;
+	color:white;
+}
+.new2{
+	background-color: aqua;
+	height:1000px;
+	width:100%;
+}
+.img2 img{
+	height: 200px;
+	width: 200px;
+	padding: 105px 0px 0px 150px;
+}
+.img3 img{
+	height: 200px;
+	width: 200px;
+	padding: 0px 0px 0px 150px;
+}
+.img4 img{
+	height: 400px;
+	width: 250px;
+	padding: 0px 0px 0px 360px;	
+}
+.image-container{
+	height: 400px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+}
+.hori-image{
+	height: 400px;
+	width: 250px;
+	margin-top:20px;
+}
+
+
+
+
+

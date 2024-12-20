@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- onclick -->
+     <button onclick="GeneratePara()">Click Here</button>
+     <script>
+        function GeneratePara(){
+            var pref=document.createElement("p")
+            pref.innerHTML="welcome to js class"
+            let body=document.body
+            body.append(pref)
+        }
+    </script>
+</body>
+</html>

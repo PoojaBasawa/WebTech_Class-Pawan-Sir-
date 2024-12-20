@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            text-align:center;
+            margin:80px auto;
+        }
+        button{
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- create a card and button if we click one button react image should be displayed and if we 
+     click another button angular image should be displayed -->
+     <div>
+        <img id="img" src="https://th.bing.com/th/id/OIP.QdIrCNdF2ZVylABjjes1LAHaGq?w=1142&h=1027&rs=1&pid=ImgDetMain"
+        height="300" width="300">
+        <br><br>
+        <button id="btnA" onclick="changetoReact()">React</button>
+        <button id="btnB" onclick="changetoAngular()">Angular</button>
+    </div>
+    <script>
+        function changetoAngular(){
+            var image=document.getElementById("img")
+            image.src="https://www.liblogo.com/img-logo/an5956a9fe-angularjs-logo-angularjs-logo.png"
+        }
+        function changetoReact(){
+            var image=document.getElementById("img")
+            image.src="https://th.bing.com/th/id/OIP.QdIrCNdF2ZVylABjjes1LAHaGq?w=1142&h=1027&rs=1&pid=ImgDetMain"
+        }
+    </script>
+</body>
+</html>

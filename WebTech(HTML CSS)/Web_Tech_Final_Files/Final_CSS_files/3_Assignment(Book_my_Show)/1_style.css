@@ -1,0 +1,128 @@
+.login_body{
+    background-image: url('https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg');
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+.signup_body{
+    background-image: url('https://img.freepik.com/premium-vector/new-user-online-registration-sign-up-concept-tiny-characters-signing-up-login-account-huge-smartphone-secure-password-mobile-app-web-access-cartoon-people-vector-illustration_87771-14223.jpg');
+    background-repeat: no-repeat;
+    background-position: 2%;
+}
+
+.password_body{
+    background-image: url('https://img.freepik.com/free-vector/face-recognition-personal-identification-secure-access-profile-entry-data-storage-opening-female-account-holder-cartoon-character-vector-isolated-concept-metaphor-illustration_335657-2852.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+#heading{
+    color: azure;
+    text-align: center;
+    border: 3px solid black;
+    background-color: black;
+    padding: 12px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.login_form{
+    margin-top: 5%;
+    margin-left: 45%;
+    border: 0px solid;
+    border-radius: 2%;
+    box-shadow: black 3px 4px 10px 7px;
+    width: fit-content;
+    padding: 2% 2%;
+    margin-bottom: 5%;
+}
+.signup_form{
+    margin-top: 5%;
+    margin-left: 42%;
+    border: 0px solid;
+    border-radius: 2%;
+    box-shadow: black 3px 4px 10px 7px;
+    width: fit-content;
+    padding: 2% 2%;
+    margin-bottom: 5%;
+}
+
+.password_form{
+    margin-top: 5%;
+    margin-left: 25%;
+    border: 0px solid;
+    border-radius: 2%;
+    box-shadow: black 3px 4px 10px 7px;
+    width: 25%;
+    padding: 2% 2%;
+    margin-bottom: 5%;
+}
+
+.login_form h2, .password_form h2, .signup_form h2{
+    text-align: center;
+}
+
+.login_form input{
+    border-width: 0px 0px 2px 0px;
+    width: 100%;
+}
+.signup_form input{
+    border-width: 0px 0px 2px 0px;
+}
+.password_form input[type=text],input[type=password],input[type=number]{
+    border-width: 0px 0px 2px 0px;
+    width: 100%;
+}
+
+.login_form p{
+    text-align: center;
+}
+
+#submit{
+    background-color: blue;
+    color: white;
+    padding: 7px 30px;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-left: 29%;
+}
+
+.password_form #submit1{
+    background-color: green;
+    color: white;
+    padding: 7px 30px;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-left: 2%;
+}
+
+.password_form a{
+    color: white;
+    text-decoration: none;
+}
+
+.signup_form #sub_link{
+    color: white;
+    text-decoration: none;
+}
+
+.signup_form #submit{
+    background-color: green;
+    color: white;
+    padding: 7px 100px;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-left: 26%;
+}
+
+
+.signup_form p{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(24, 23, 23);
+    padding: 5px;
+    color:azure;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+}

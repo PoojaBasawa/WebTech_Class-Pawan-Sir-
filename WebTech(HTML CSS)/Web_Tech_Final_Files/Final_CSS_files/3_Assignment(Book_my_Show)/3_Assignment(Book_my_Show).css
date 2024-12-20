@@ -1,0 +1,257 @@
+body{
+	font-family: cursive;
+}
+.main_image{
+	height: 230px;
+	width:100%;
+	transition: height 1s, width 1s, box-shadow 1s;
+}
+.main_image:hover{
+	height: 230px;
+	width:100%;
+	box-shadow: 0px 0px 15px red;
+}
+.bookmyshowimage{
+	height: 60px;
+	width: 300px;
+	padding: 40px 40px 0px 40px;
+}
+.search{
+	height: 40px;
+	width: 590px;	
+}
+.option{
+	height: 40px;
+	width: 140px;
+	margin: 0px 10px 40px 10px;
+	padding:0px 0px 0px 0px;
+	border: none;
+}
+.sign_in{
+	background-color: black;
+	color:white;
+	border: none;
+	border-radius: 5px;
+	padding:14px 25px;
+	margin:0px 0px;
+	text-decoration: none;
+}
+.sign_in a{
+	color:white;
+	text-decoration: none;
+}
+.sign_in a:hover{
+	color:yellow;
+}
+.nav a{
+	text-decoration: none;
+	padding:0px 10px;
+	color:black;
+}
+.nav{
+	border: 2px solid lightgrey;
+	background-color: lightgrey;
+	padding:7px 0px;
+}
+.movie:hover{
+	color: blue;
+	background-color: yellow;
+	padding:10px;
+}
+.stream:hover{
+	color: blue;
+	background-color: aqua;
+	padding:10px;
+}
+.events:hover{
+	color: blue; 
+	background-color: lightcyan;
+	padding:10px;
+}
+.plays:hover{
+	color: blue;
+	background-color: gold;
+	padding:10px;
+}
+.sports:hover{
+	color: blue;
+	background-color: deeppink;
+	padding:10px;
+}
+.activities:hover{
+	color: blue;
+	background-color: deepskyblue;
+	padding:10px;
+}
+.listyourshow:hover{
+	color: blue; 
+	background-color: chocolate;
+	padding:10px;
+}
+.corporates:hover{
+	color: blue;  
+	background-color: papayawhip;
+	padding:10px;
+}
+.offers:hover{
+	color: blue;
+	background-color: orange;
+	padding:10px;
+}
+.giftcards:hover{
+	color: blue;
+	background-color: limegreen;
+	padding:10px;
+}
+.recommended{
+	 font-size:33px;
+	 font-weight: bold;
+	 padding: 0px 0px 0px 10px;
+}
+.recommended:hover{
+	 letter-spacing: 8px;
+}
+.middle_image{
+	height: 280px;
+	width:70%;
+	padding:40px 200px 40px 200px;
+	transition: height 2s, width 2s, padding 2s, box-shadow 2s;
+}
+.middle_image:hover{
+	height: 280px;
+	width:80%;
+	padding:40px 140px 40px 140px;
+	box-shadow: 0px 0px 8px black;
+}
+.parent, .parent_album{
+	display: flex;
+	justify-content: space-evenly;
+}
+.child, .child_album{
+	display: flex;
+	justify-content: centre;
+	height: 400px;
+	width:201px;
+	margin:0px 10px;
+}
+.parent img{
+	height: 400px;
+	width: 201px;
+	border-radius: 10px;	
+}
+.parent img:hover{
+	height: 400px;
+	width: 201px;
+	border-radius: 10px;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 15px black;	
+}
+.parent_album img{
+	height: 400px;
+	width: 201px;
+	border-radius: 10px;
+}
+.parent_album img:hover{
+	height: 400px;
+	width: 201px;
+	border-radius: 10px;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 15px black;	
+}
+.movie_sublines p{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 20px 0px 5px 0px;
+}
+.footer{
+	background-color: grey;
+	height: 520px;
+	width: 100%;
+}
+.contact_today{
+	background-color: black;
+	color:white;
+	text-transform: bolder;
+	padding: 10px 0px 10px 2px;
+}
+.contact_today_botton{
+	background-color: red;
+	color:whitesmoke;
+	border-radius: 5px;
+	border:none;
+	padding:13px 18px;
+	font-weight: bolder;
+	margin:0px 5px 0px 5px;
+	font-size:15px;
+}
+.contact_today_botton:hover{
+	box-shadow: 5px 5px 5px white;
+}
+.today{
+	text-decoration: none;
+	color:white;
+}
+.footer_image{
+	height: 70px;
+	width: 170px;
+	padding: 70px 580px 0px 590px;
+}
+.footer_image:hover{
+	width: 330px;
+	padding: 70px 400px 0px 510px;
+}
+.facebook {
+	width:45px;
+	height: 40px;
+	border-radius: 100px;
+	transition: box-shadow 0.4s;
+}
+.facebook:hover{
+	box-shadow: 0px 0px 20px aqua;
+}
+.instagram{	
+	width:45px;
+	height: 40px;
+	border-radius: 100px;
+	border-color: 0px 0px 40px red;
+	transition: box-shadow 0.4s;
+}
+.instagram:hover{
+	box-shadow: 0px 0px 20px blue;
+}
+.linkedin{
+	width:45px;
+	height: 40px;
+	border-radius: 100px;
+	border-color: 0px 0px 40px white;
+	transition: box-shadow 0.4s;
+}
+.linkedin:hover{
+	box-shadow: 0px 0px 20px yellow;
+}
+.youtube{
+	width:45px;
+	height: 40px;
+	border-radius: 100px;
+	border-color: 0px 0px 40px white;
+	transition: box-shadow 0.4s;
+}
+.youtube:hover{
+	box-shadow: 0px 0px 20px deeppink;
+}
+.footer_images{
+	margin:0px 0px 0px 570px;
+}
+.para1{
+	margin:0px 0px 0px 490px;
+	font-size: 12px;
+}
+.para2{
+	margin: 3px 0px 0px 15px;
+	font-size: 11px;
+}
+.para3{
+	margin:0px 0px 0px 514px;
+	font-size: 12px;
+}
+

@@ -1,0 +1,222 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Demo</title>
+	<script type="text/javascript">
+		console.log("Hello Guys")
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		console.log("Welcome to JS")
+	</script>
+</body>
+</html> -->
+
+<!-- Accessing the array  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		// var product=["java",0.40,{name:"Raj",age:"45"},90,"Python"]
+		// console.log(product)
+		// console.log(product[1])
+		// console.log(product[2].age)
+		// console.log(product[2].name)
+		// console.log(product.length)
+		// console.log(product.length-1)
+
+		// var arr=["pooja",50,[10,50,"deepa"],"anisha",{name:"Laxmi",lname:"basawa"},80]
+		// console.log(arr)
+		// console.log(arr[1])
+		// console.log(arr[2][2])
+		// console.log(arr[4].name)
+		// console.log(arr.length)
+	</script>
+	<script type="text/javascript">
+		// Array Methods
+		// 1) push() method
+
+		// var array=[]
+		// array.push("Dhoni")
+		// array.push(34)
+		// array.push(90)
+		// array.push(100)
+		// console.log(array)
+		// console.log(array[1])
+
+		// 2) pop() method
+	
+			// var arr=["virat",23,34,"pooja",44,55]
+			// console.log(arr)
+			// arr.pop()
+			// arr.pop()
+			// console.log(arr)
+
+		//3) unshift method()
+
+			// var arr=["virat",23,34,"pooja",44,55]
+			// // arr.unshift(100)
+			// // console.log(arr)
+			// arr.unshift("Hello")
+			// console.log(arr.shift())
+			// console.log(arr)
+
+		   //  let arr=[10,"Sachin","true","Virat",220] 
+		   // // console.log(arr.reverse())
+
+		   // arr.slice(4)
+		   // console.log(arr)
+
+// 		   var arr=[10,20,30,40,50,60,70,80,90]
+// // console.log(arr.slice(4))
+// console.log(arr.slice(2,5))
+
+			// console.log(arr.indexOf("Sachin"))
+			// console.log(arr.indexOf(100))
+
+		    // let arr = [10, "Sachin", true, "Virat", 18];
+			// console.log(arr.indexOf("Sachin"));
+
+			// var arr=[10,20,30,40,50,60,70,80,90]
+			// console.log("original array"+arr)
+			// let spliced=arr.splice(2,4)                 //startindex,length
+			// console.log("spliced array"+spliced)
+			// console.log("original" +arr)
+
+			// var arr=[1,2,3,4,5,6]
+			// console.log(arr.splice(2,3))
+			// console.log(arr)
+
+			// var arr=[10,20,30,40,50,60,70,80,90]
+			// console.log(arr.slice(4))
+			// console.log(arr.slice(2,5))
+
+		// 	function outer(){
+		//     var city="bangalore"
+		//     console.log("outer variable" + city)
+		//     console.log("i am outer function")
+		//     function inner(){
+		//     console.log("inner variable" + city)
+		//     console.log("i am inner function")
+		//     }
+		//     return inner()
+		// }
+		// outer() 
+
+		//closure
+		// function outer(){
+		// 	var city="bglr"
+		// 	console.log("outer is" + outer)
+		//     function inner(){
+	    // 	var city="gdg"
+	    // 	console.log("inner is" + inner)
+		//     }
+		//     return inner()
+		// }
+		// outer()
+// function outer(){
+//   var city = "bglr"
+//   console.log("outer city:", city)
+  
+//   function inner(){
+//     var city = "gdg"
+//     console.log("inner city:", city)
+//   }
+  
+//   return inner()
+// }
+
+// outer()
+
+// function outer(){
+// 	var city="bglr"
+// 	console.log("outer is: "+city)
+// 	console.log("Its a outer function")
+// 	function inner(){
+// 		var city1="gdg"
+// 		console.log("inner is: "+city1)
+// 		console.log("inner")
+// 	}
+// 	return inner()
+// }
+// outer()
+
+// var name="Ramu";
+// let city="Mumbai"
+// console.log("name =",name)
+// console.log("city =",city)
+// var age=17
+// if (age>=18){
+//     console.log("age =",age)
+// }
+// else{
+//     console.log("Your age is low")
+// }
+// 
+// var isplaced=true
+// let isdone=false
+// console.log(isplaced)
+// console.log(isdone)
+
+// var isplaced=19
+// var isdone=false
+// console.log(isdone)
+// console.log(isplaced)
+
+// var a 
+// console.log(a)
+
+// let b=null
+// console.log(b)
+
+// ba=BigInt(12345698874569314698745632414598)
+// console.log(ba)
+
+// var sym1=symbol('des');
+// var sym2=symbol('des');
+// console.log(sym1==sym2);
+
+// const sym1 = Symbol('description');
+// const sym2 = Symbol('description');
+// console.log(sym1 === sym2)
+
+// var arr=[]
+// console.log(typeof arr)
+
+let person={
+    name:"virat",
+    age:25,
+    city:"mumbai",
+    gender:"male"
+}
+// old approach
+
+let name=person.name
+let age=person.age
+let city=person.city
+console.log(name+" "+age+" "+city)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

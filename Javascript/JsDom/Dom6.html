@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document-DOM Concepts</title>
+    </head>
+    <body>
+        <!-- <p id="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse sapiente voluptate sit officiis magnam tenetur minima quod dolorum inventore? Eos, eum dignissimos. Qui nobis debitis sit reiciendis doloremque dolorem consequatur?</p> -->
+
+
+        <!-- id or document.body these method used to access the body -->
+
+        <script>
+            //11.document.createElement()
+            //We can create web elements dynamically using create element method 
+            //In order to dynamically append created element to the webpage we take the help of appendChild() method or append()/
+
+            // var btn=document.createElement('button')
+            // btn.innerHTML="dynamic button"
+            // var body=document.body
+            // body.appendChild(btn)
+
+            OR
+
+            // var para = document.createElement("button")
+            // para.innerHTML = "Here"
+            // document.body.appendChild(para)
+
+
+            // var href=document.createElement('h1')
+            // href.innerHTML="Welcome to PentagonSpace"
+            // document.body.appendChild(href)
+            // href.style.border="5px solid red"
+            // href.style.color="blue"
+            // href.style.backgroundColor="yellow"
+            // href.style.textAlign="center"
+
+
+            //12.remove()
+            //By using the remove method we can remove web elements dynamically from HTML document
+
+            //observe below all before the remove using & after the remove using
+            var pref=document.getElementById('one')
+            pref.remove()
+
+            //javascript created elements can also be removed Ex:btn
+            btn.remove()
+
+            
+
+
+        </script>
+        
+
+
+
+    </body>
+    
+    </html>

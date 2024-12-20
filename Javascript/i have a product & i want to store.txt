@@ -1,0 +1,26 @@
+1)
+// i have a product & i want to store information 
+// of that product like product name, price,category,
+// rating,stock
+
+// var product={
+//     pname:"I phone 15pro",
+//     price:110000,
+//     category:"Electronic",
+//     rating:4.5,
+//     stock:false
+// }
+// console.log(product)
+
+OUTPUT
+======
+PS C:\Users\Pooja\OneDrive\Desktop\Javascript\jsobjects> Node Object2
+{
+  pname: 'I phone 15pro',
+  price: 110000,
+  category: 'Electronic',
+  rating: 4.5,
+  stock: false
+}
+
+3)

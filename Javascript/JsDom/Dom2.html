@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id="one">Welcome to PentagonSpace</h1>
+        <p id="two">This is paragragh it has accesses in console</p>
+        <p id="three"></p>
+        <h3 id="four"></h3>
+        <h4 id="five"></h4>
+        <h5 id="six"></h5>
+
+        <script>
+            //5.document.getElementById()
+            //by using this DOM method we can access HTML elements by ID name
+
+            let h1ref=document.getElementById('one')
+            console.log(h1ref)
+            //check in inspect
+
+            let p1ref=document.getElementById('two')
+            console.log(p1ref)
+            //check in inspect
+
+            //there are 2 methods to access & add the contents inside the h1 or p tags
+            //1.innerHTML
+            //2.textContent
+
+            let pref=document.getElementById('three')
+            pref.innerHTML="Thank you for visiting"
+
+            let h3ref=document.getElementById("four")
+            h3ref.textContent="Hello how are you"
+            
+            //difference between innerHTML & textContent
+            //1.innerHTML -> If we have any HTML element present while using inner HTML property it will recognises the HTML tag
+            let h4ref=document.getElementById('five')
+            h4ref.innerHTML="<i>Welcome to JS class</i>"
+            //output-with rendering the italic tag italicized text
+
+            //2.textContent -> If we have any HTML tags present while using text content will not recognises & it will print as it is HTML tags
+            let h5ref=document.getElementById('six')
+            h5ref.textContent="<b>Welcome to JS class</b>"
+
+            //- The element with id "six" will display plain text: <b>Bold</b>, without rendering the HTML bold tag.
+
+
+        </script>
+    </body>
+</html>

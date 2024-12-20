@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        
+    </head>
+    <body>
+        <h1 id="one" class="heading">Welcome to js class</h1>
+        <input type="text" id="two">
+        <a id="three">Youtube</a>
+        <input type="text" id="four">
+        <input id="five">
+
+        <script>
+            //13.getAttribute()
+            //This method is used to access the attribute value from the element.
+             
+            //to see get the attribute
+            //var input=document.getElementById('two')
+            //var res1=input.getAttribute("type")
+            //console.log(res1)
+
+            //14.setAttribute()
+            //This method used to provide the attribute value for the HTML elements
+
+            var ahref=document.getElementById('three')
+            ahref.setAttribute("href","http://www.youtube.com")
+
+            var input1=document.getElementById('four')
+            input1.setAttribute("input1","password")
+
+            var input1 = document.getElementById('five');
+            input1.setAttribute("type", "password");
+
+        </script>
+    </body>
+</html>

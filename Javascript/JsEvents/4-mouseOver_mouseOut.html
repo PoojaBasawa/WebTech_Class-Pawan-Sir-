@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        <style>
+            .new{
+                height:400px;
+                width:400px;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- onmouseover and onmouseout
+        these are the events related to mouse move activity
+        1.onmouseover: When we take the cursor on any web elements it gets triggered
+        2.onmouseout: When we take out the cursor from any web element is get triggered -->
+        
+       <div class="new" id="box" onmouseout="mouseOut()" onmouseover="mouseOver()"></div>
+
+        <script type="text/javascript">
+          function mouseOver() {
+            var boxy = document.getElementById('box');
+            boxy.style.backgroundColor = "blue";
+          }
+
+          function mouseOut() {
+            var boxy = document.getElementById('box');
+            boxy.style.backgroundColor = "yellow";
+          }
+        </script>
+    </body>
+</html>

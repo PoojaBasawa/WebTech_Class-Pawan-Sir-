@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+</head>
+<body>
+    <script>
+        a=10
+        console.log(a)
+
+        //var keyword
+        // --> VAR can be redeclared and reassigned.
+
+        var city //variable declaration
+        city="Bengaluru" //variable assignment using = operator
+        console.log("city =",city)
+        city="Rajamundry"
+        console.log("city =",city)
+        var city="Kakinada"
+        console.log("city =",city)
+        
+
+        //LET keyword
+        // -->let can be reassigned but it can't be redeclared.
+        let age=30//variable initialization
+        console.log("age =",age)
+        age=25
+        console.log("age =",age)
+
+
+        //CONST keyword
+        // -->Const cannot be redeclared or reassigned.
+        // --> while declaring const variable, we should initialize the value
+        const gender="male"       
+        console.log("gender =",gender)
+    </script>
+</body>
+</html>

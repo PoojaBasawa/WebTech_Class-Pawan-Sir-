@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	</title>
+	<style type="text/css">
+		.parent{
+			display: flex;
+			width:100%;
+			border: 5px dashed red;
+			position: fixed;
+			top:20px;
+			left:50px;
+			gap: 20px; 
+		}
+		.child{
+			height:300px;
+			width:300px;
+			background-color: green;
+		}
+		#box{
+			background-color: blue;
+			position: relative;
+			top:310px;
+			left:0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child"></div>
+		<div class="child" id="box"></div>
+		<div class="child"></div>
+	</div>
+</body>
+</html>

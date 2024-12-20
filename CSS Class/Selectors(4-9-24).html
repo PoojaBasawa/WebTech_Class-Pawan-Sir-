@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+	h1{
+		color: blue;
+	}
+	#one{
+		color:brown;
+	}
+	#two{
+		color:green;
+	}
+	.three{
+		color:limegreen;
+	}
+	.one{
+		color:deeppink;
+	}
+	.new{
+		color:white;
+		background-color: black;
+	}
+	#new1,old{
+		color:blue;
+		background-color: yellow;
+	}
+	.new1,old{
+		color:yellow;
+		background-color: blue;
+	}
+	#example1:link{
+		color:darkorange;
+		text-decoration: none;
+	}
+	.example2:hover{
+		color:white;
+		text-decoration: none;
+		background-color: black;
+	}
+	button{
+		height:60px;
+		width:100px;
+		background-color: yellow;
+	}
+	button:hover{
+		color:black;
+		background-color: aqua;
+	}
+	.example3:active{
+		color:yellow;
+	}
+	.example4:visited{
+		color:deeppink;
+	}
+	a[href]{
+		text-decoration: none;
+	}
+	input[type=text]{
+			background-color: yellow;
+	}
+	input[name~="password"]{
+			background-color: orange;
+	}
+	a[href^=https]{
+			font-size: 30px;
+	}
+	input[type=password]{
+			border:5px solid skyblue;
+	}
+	div p{
+			color:white;
+			background-color: black;
+	}
+	.one li{
+			color:chocolate;
+	}		
+	.two li:hover{
+		color:darkcyan;
+		background-color: yellow;
+		font-size: 20px;
+		font-family: sans-serif;
+	}
+
+
+	</style>
+</head>
+<body>
+	<u><h1>TYPES OF SELECTORS</h1></u>
+	<h1>1) Simple Selector</h1>
+	<h1>2) ID Selector(#)</h1>
+	<p id="one">Welcome to CSS class</p>
+	<h3 id="two">Python</h3>
+	<h1 class="three">3) Class Selector(.)</h1>
+		<div class="one">
+		<h1>3) Class Selector</h1>
+		<p>Only "one Class" name used has used. </p>
+	</div>
+	<div class="two new">
+		<h1>3) Class Selector</h1>
+		<p>In class we can give a "two or more than 2 names" reference name among them one can be used. </p>
+	</div>
+	<div id="new1",id="old">
+		<h1>4) Grouping Selector</h1>
+		<p>Welcome to Grouping Selector(ID or Class can be grouped). </p>
+	</div>
+	<div class="new1",id="old">
+		<h1>4) Grouping Selector</h1>
+		<p>Welcome to Grouping Selector(ID or Class can be grouped). </p>
+	</div>
+	<h1>5) Universal Selector(*)</h1>
+	<p>All the tags are selected at a time & applied a property. <br>
+	NOTE: I have't applied properties you can apply within a style by using *{ properties }(Bcz all the text color is changing.) </p>
+
+	<h1>6) Pseudo Class Selector</h1>
+	<u><h3>Types of Pseudo Class Selector</h3></u>
+	<h6>1) Link</h6>
+	<h6>2) Hover</h6>
+	<h6>3) Active</h6>
+	<h6>4) Visited</h6>
+	<h1>All Pseudo Class Selectors are applied here</h1>
+	<p>By using this selector we can change default state of an element. This selector is mainly used for "anchor tag" or "button tag".</p>
+		<a id="example1" href="https://www.twitter.com">Twitter(link)</a>
+		<a class="example2" href="amazon.com">Amazon(hover)</a>
+		<button>Submit(hover)</button>
+		<a class="example3" href="www.youtube.com">Youtube(active): ((When you click on it slite "yellow you can observe".)) </a> <br><br>
+		<a class="example4" href="https://flipkart.com">Flipkart(visited)</a>
+		<h1>7) Attribute Selector</h1>
+		<br><br>
+		Name:<input type="text" value="Enter a name">
+		Password:<input type="password" name="password" value="password">
+		<br>
+		<div>
+			<h1>This is Lorem paragraph.</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div>
+			<ol class="one">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+		</div>
+		<div>
+			<ol class="two">
+				<li>Four</li>
+				<li>Five</li>
+				<li>Six</li>
+			</ol>
+		</div>
+</body> 
+</html>

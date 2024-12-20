@@ -1,0 +1,7 @@
+fptr=open("names.txt","r")
+pos=fptr.tell()
+print(pos)
+data=fptr.read(5)
+print(data)
+pos=fptr.tell()
+print(pos) 

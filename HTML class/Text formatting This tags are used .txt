@@ -1,0 +1,1 @@
+Text formatting: This tags are used to alter the test content in html webpage.

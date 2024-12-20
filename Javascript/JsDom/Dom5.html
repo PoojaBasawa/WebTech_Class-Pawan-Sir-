@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>PentagonSpace</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, commodi quia expedita non quaerat doloribus voluptatibus, ipsum dolores itaque saepe minima ipsam error? Aut unde distinctio recusandae eaque, nesciunt accusantium.</p>
+        <h1>Hello</h1>
+        <h4 class="four">This is heading</h4>
+        <h4 class="four">This is h4 tag</h4>
+        <p id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quia? Similique eius dolorem voluptas repudiandae ab ipsum. Fugiat suscipit eos accusamus nisi. Ab incidunt, iure veniam totam eius quam eligendi!</p>
+        <p id="one">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate reiciendis alias eveniet numquam debitis asperiores libero, quas provident, dolor consequatur sed iste a animi itaque iure nostrum iusto assumenda ex?</p>
+        <script>
+            //8.document.query selector()
+            //Query selector method return the first element in the document that matches with the specific selector or group of selector 
+            //If no matches found then it will return null.
+
+            //Note: Below all check it in the console where it has accessed only perticular given tags only -->
+            
+            <!-- var h1ref=document.querySelector('h1')
+            console.log(h1ref)
+
+            let pref=document.querySelector('p')
+            console.log(pref)
+
+            let p1ref=document.querySelector('#one')
+            console.log(p1ref)
+
+            var h4ref=document.querySelector('.four')
+            console.log(h4ref) -->
+
+            //10.document.querySelectorAll()
+            //It returns all teh elements which matches the query as an array
+
+            //check output in console
+            //not got output
+
+            var h1ref=document.querySelectorAll('h1')
+            console.log(h1ref)
+
+            var p2ref=document.querySelectorAll('p')
+            console.log(p2ref)
+
+            var p3ref=document.querySelectorAll('#one')
+            console.log(p3ref)
+
+            //interview: what difference between queryselector & queryselectorall 
+
+            // querySelector
+
+            // - Returns the first matching element that satisfies the specified selector.
+            // - Returns a single Element object or null if no match is found.
+
+            // querySelectorAll
+
+            // - Returns a collection of all matching elements that satisfy the specified selector.
+            // - Returns a NodeList (a collection of nodes) or an empty NodeList if no matches are found
+
+        </script>
+    </body>
+</html>

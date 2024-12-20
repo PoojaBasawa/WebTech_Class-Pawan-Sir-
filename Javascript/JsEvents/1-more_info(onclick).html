@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- onclick -->
+        <button onclick="GeneratePara()">Click here</button>
+        <script>
+            function GeneratePara(){
+                var pref=document.createElement('p')
+                pref.innerHTML="Welcome to JS class"
+                let body=document.body
+                body.append(pref)
+            }
+
+            //proper intendation, space, semicolons
+            function generate() {
+            var par = document.createElement('p');
+            par.innerHTML = "Generated";
+            var bod = document.body;
+            bod.appendChild(par); // Use appendChild instead of append
+            }
+   
+
+        </script>
+    </body>
+</html>

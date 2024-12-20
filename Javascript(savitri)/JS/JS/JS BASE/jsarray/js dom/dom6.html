@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="one">welcome to js calss</h1>
+    <script>
+
+        var btn=document.createElement("button")
+        btn.innerHTML="dynamic button"
+        var body=document.body
+        body.append(btn)
+        var href=document.createElement("h1")
+        href.innerHTML="hello"
+        body.append(href)
+        href.style.border="5px solid black"
+        href.style.textAlign="center"
+
+        //remove method:
+        //using this method we can remove web elements dynamically from html document.
+        // var pref=document.getElementById("one")
+        // pref.remove()
+        // btn.remove()
+    </script>
+    
+</body>
+</html>

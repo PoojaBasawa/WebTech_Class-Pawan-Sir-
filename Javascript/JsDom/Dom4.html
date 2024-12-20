@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="">Username</label>
+            <input type="text" name="username">
+            <label for="">Password</label>
+            <input type="password" name="password">
+            <br><br>
+            <input type="submit" >
+        </form>
+        <h1>PentagonSpace</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, distinctio. Ipsum et praesentium eaque, optio quos rem consequuntur temporibus culpa, ullam eum itaque inventore. Libero voluptas dolorem sint tempora numquam!</p>
+        <h1>PentagonSpace</h1>
+
+        <script>
+            //6.document.getElementsByName()
+            //It is used to find the elements on the webpage based on the name attribute
+            //It returns the nodelist it is nothing but an array of HTML elements
+            let username=document.getElementsByName('username')
+            console.log(username)
+
+            //7.document.getElementsByTagName()
+            //It is used to find the element using HTML tag name
+            let h1ref=document.getElementsByTagName('h1')
+            console.log(h1ref)
+
+            let inputref=document.getElementsByTagName('input')
+            console.log(inputref)
+        </script>
+
+
+    </body>
+</html>

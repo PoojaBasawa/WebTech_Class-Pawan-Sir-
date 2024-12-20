@@ -1,0 +1,16 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Changing the content(Dynamically)</h1>
+        <h1 id="one">Welcome</h1>
+        <button onclick="ChangeContent()">Click here</button>
+        <script>
+            function ChangeContent(){
+                let h1ref=document.getElementById('one')
+                h1ref.innerHTML="Thank for visiting"
+            }
+        </script>    
+    </body>
+</html>
+
+<!-- ChangeContent - it is not a inbuilt function any other name can be used -->

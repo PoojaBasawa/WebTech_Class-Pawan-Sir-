@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- check in console input is counted -->
+
+        <!-- onkeydown
+        This event gets triggered when we type any key on the keyboard -->
+        <input type="text" onkeydown="KeyPress(event)">
+         <!--  <script>
+            function KeyPress(){
+                console.log("Key Pressed")
+            }
+        </script>  -->
+        <!-- Ouput: check in console -->
+
+       <script>
+            function KeyPress(event){
+                console.log("Key Pressed "+event.target.value)
+            }
+
+            // OR
+            //     function KeyPress(event) {
+            //     console.log("Key Pressed: ", event.key);
+            //     }
+
+
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="1_style.css">
+</head>
+<body class="signup_body">
+    <h1 id="heading">SignUp Page</h1>
+    <form class="signup_form">
+        
+            
+            <h2>Sign Up</h2>
+            <label name="Fname">First name:</label>
+            <input type="text" name="Fname">&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label name="Lname">Last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Lname"><br><br>
+
+            <label name="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label name="phno">Phone number:</label>
+            <input type="tel" name="phno"><br><br>
+
+            <label name="gender">Gender:</label>
+            <input type="radio" value="male" name="gender">Male
+            <input type="radio" value="female" name="gender">Female
+            <input type="radio" value="Others" name="gender">Others<br><br>
+
+
+            <label name="dob">DOB:</label>
+            <input type="date"><br><br>
+
+            <label name="city">City:</label>
+            <select>
+                <option>--select your city--</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Rajamundry">Rajamundry</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <label name="state">State:</label>
+            <select>
+                <option>--Select State--</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="ANP">Arunachal Pradesh</option>
+                <option value="TS">Telangana</option>
+                <option value="KA">Karnataka</option>
+                <option value="ND">Delhi</option>
+                <option value="TN">Tamilnadu</option>
+            </select><br><br>
+
+            <label name="address">address :</label>
+            <textarea rows="2"></textarea><br><br>
+
+            <label name="new password">New Password:</label>
+            <input type="password" placeholder="Enter Password"><br><br>
+            
+            <label name="image">Upload Image:</label>
+            <input type="file"><br><br>
+
+            <input type="checkbox" required>
+            <label>accept terms and conditions</label><br><br>
+
+            <button id="submit"><a id="sub_link" href="login.html"> Sign Up</a></button><br><br>
+
+            <p>
+                Already have an account? <a href="login.html">Click Here</a> for login
+            </p>
+        
+    </form>
+    <footer><h4 class="footer">&copy; Copy rights 2024 reserved by Bhaskar</h4></footer>
+</body>
+</html>

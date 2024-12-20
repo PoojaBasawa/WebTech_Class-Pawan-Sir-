@@ -1,0 +1,1089 @@
+4/11/2024
+What is Bootstrap?
+==================
+1) Bootstrap is an open-sources CSS framework developed by the team at Twitter.
+2) It is a combination is HTML, CSS and JavaScript code designed to help build user interface components.
+3) Bootstrap was also programmed to support both HTML5 and CSS3.
+4) Also it is called Front-End-Framework.
+5) Bootstrap is a free collection of tools for creating a websites and web applications.
+6) It contains HTML & CSS-based design templates for Typography, forms, buttons, navigation and other interface components, as well as optional extensions.
+
+CDN-Content Delivery Network - When connected to internet then only bootstrap will work.
+
+Bootstrap Files
+===============
+Bootstrap can be added down to three files:
+1) bootstrap.css - a CSS framework
+2) bootstrap.js - a JavaScript/jQuery framework
+
+Additionally, Bootstrap requires jQuery to function. jQuery is an extremely popular and widely used JavaScript library, that both simplifies and adds cross browser compatibility to JavaScript.
+
+Advantages of Bootstrap
+=======================
+1) Easy to use: Anybody with just basic knowledge of HTML & CSS can start using Bootstrap.
+2) Responsive features: Bootstrap's responsive CSSS adjusts to phones, tablets, and desktops.
+3) Mobile-first approach: In Bootstrap, mobile-first styles and part of the core framework.
+4) Browser compatibility: Bootstrap is compatible with all modern bowers(Chrome, Firefox, Internet Explorer 10+ Edge, Safari, and Opera).
+
+5/11/2024
+Container(Responsive Website)
+=============================
+Bootstrap requires a containing element to wrap site contents.
+There are 2 container classes to choose from:
+1) The .container class provides a responsive fixed with container.(Auto margin & padding)
+2) The .container-fluid class provides a full width container, spanning the entire width of the viewport.(entire width)
+
+Bootstrap Grid System
+=====================
+Bootstrap's grid system allows up to 12 columns across the page.
+> It can be divided into different divisions like col-6,col-4,col-3.
+> class="row" & class="col" is used.
+
+Grid Classes
+============
+The Bootstrap grid system has 5 classes:(Bootstrap Breakpoints)
+1).col-xs (extra small devices - screen width less than <576px)
+2).col-sm-(small devices - screen width equal to or greater than >=576px)
+3).col-md-(medium devices - screen width equal to or greater than >=768px)
+4).col-lg-(large devices - screen width equal to or greater than >=992px)
+5).col.xl-(xlarge devices - screen width equal to or greater than >=1200px)
+
+6-11-2024
+Heading
+=======
+In order to create heading in bootstrap we can use h1-h6 tags as an class name to create headings is as follows
+
+h1.Bootstrap heading = Semibold 2.5rem(40px)
+h2.Bootstrap heading = Semibold 2rem(32px)
+h3.Bootstrap heading = Semibold 1.75em(28px)
+h4.Bootstrap heading = Semibold 1.5rem(24px)
+h5.Bootstrap heading = Semibold 1.25rem(20px)
+h6.Bootstrap heading = Semibold 1rem(16px)
+
+DEFAULT FONT SIZE(INTERVIEW QUESTION[IMP])
+==========================================
+- h1: Semibold, 2.5rem (40px)
+- h2: Semibold, 2rem (32px)
+- h3: Semibold, 1.75rem (28px)
+- h4: Semibold, 1.5rem (24px)
+- h5: Semibold, 1.25rem (20px)
+- h6: Semibold, 1rem (16px)
+
+Display
+=======
+Whenever we need more style headings than instead of using h1-h6 classes we can used h1-h6 classes we can use display1-display6 classes as below
+<h1 class="display-1">Display 1<h1>
+<h1 class="display-2">Display 2<h1>
+<h1 class="display-3">Display 3<h1>
+<h1 class="display-4">Display 4<h1>
+<h1 class="display-5">Display 5<h1>
+
+Breakpoints(Desktop sizes)(Don't read this)
+===========================================
+(sm) 0-480 => Smaller
+(md) 481-768 => Tablets
+(lg) 769-1279 => Laptop
+(xl) 1280+ => Larger Desktop & Monitors
+
+7-11-2024
+Text Related Class
+==================
+1) Class="text-muted"
+> When we apply class="text-muted" that on what ever text we apply the above class will be greyed out.
+> i.e. The color of the text will become grey.
+Example: p>Welcome to <span class="text-muted">Bootstrap</span>class</p>
+
+2) Class="lead"
+> When ever we need to change the look of the paragraph we can use the lead class
+Example: <p class="lead">Some text here</p>
+
+Bootstrap Text
+==============
+1) Text transform
+	<p class="text-uppercase">Its a uppercase</p>
+	<p class="text-lowercase">ITS A LOWERCASE</p>
+	<p class="text-capitalize">Its each Capitalize</p>
+
+2) Font weight and italics
+	<p class="fw-bold">Bold text.</p>
+	<p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+	<p class="fw-normal">Normal weight text.</p>
+	<p class="fw-light">Light weight text.</p>
+	<p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+	<p class="fst-italic">Italic text.</p>
+	<p class="fst-normal">Text with normal font style</p>
+
+Bootstrap Images
+================
+1) .img-thumbnail class ahoes the image to a thumbnail(bordered)
+2) .rounded-circle class shapes the image to a circle
+3) .rounded class adds rounded corners to animage
+
+Alligning Images
+================
+1) Float an image to the right with the .float-start class or to the left with ".float-end"
+
+Centered Image
+==============
+1) Center an image by adding the utility classes ".mx-auto"(mx-margin) and ".d-block"(d=display)
+
+Borders
+=======
+
+8-11-2024
+Cards
+=====
+1) A card is a flexible & extensible content container.
+2) It includes options for headers & footers, a wide variety of content
+3) Contextual background colors, and powerful display options
+4) Card titles are used by adding .card-title
+5) Card subtitles used by adding ,card-subtitle
+6) .card-img-top places an image to the top of the card
+7) Mix & match multiple content types to create the card you need, or throw everything in there.
+8) An optional header and/or footer within a card can be added.
+
+Alerts
+======
+> Alerts are created with the .alert class, followed by one of the contextual classes. 
+> .alert-success, 
+
+Forms
+=====
+1) Form controls automatically receive some global styling with Bootstrap.
+2) All textual <input>, <textarea>, and <select> elements with class .form-control have a width of 100%.
+
+a) Stacked(full-width) form
+   > Add a wrapper element with .form-group, around each form control, to ensure proper margins and create Stacked(full-width) form
+b) Inline form
+   > Add class .form-inline to the <form> element to all of the elements are inline and left-aligned.
+
+Tables
+======
+1) .table class will add a basic style of the table.
+2) It will add simple border after each row.
+
+REACT(11-12-2024)-Absent(Version)
+=================================
+
+12-11-2024
+Working of react application
+============================
+1) The browser will not send any request to the server.
+2) If we want to navigate from one page to another the react only handle the browser request.
+3) So it is called as single page application.
+
+> When user wants to change anything it will reflects in virtual DOM the virtual DOM will update only the changes need in DOM & ill will not completely render.
+==> React creates virtual DOM in memory. Instead of a manipulating the browser DOM directly react creates a virtual DOM in the memory where it does all the necessary       manipulating before making the changes in the browser DOM.
+==> Virtual DOM changes only what need to be changed. When user wants to change anything it will reflect in virtual DOM the virtual DOM update only the changes need in DOM.
+
+Features of ReactJS
+===================
+1) JSX - Java Script XML
+2) Components - each component different logic & control
+3) One-Way Data Binding - 
+4) Virtual DOM
+5) Simplicity - Easy to understand
+6) Performance - Due to virtual DOM it has high Performance.
+
+1) JSX(Java Script XML)
+=======================
+> It is JavaScript extension syntax
+> It is an HTML like syntax used in ReactJs
+> Combination of HTML & JS.
+> Only Container tags are used.
+Ex: let heading=<h1>Welcome to ReactJs class</h1>
+Ex: function Heading(){
+	return(
+    <div>
+    	<br/>
+	<h1>Welcome to react js class</h1>
+    	or
+    	{heading}
+    </div>
+    )}
+
+2) Component
+============
+> React Js is all about component. 
+> React Js application is made-up of multiple components. & each components has its own logic & controls. These components are reusable.
+1) Functional components(It is easy)
+2) Class components
+
+3) One-Way Data Binding
+=======================
+> React Js is designed in such manner that follows unidirectional data flow or oneway data binding
+Benefits of using One-Way Data Binding
+======================================
+1) Give you better control thought-out the application.
+
+4) Virtual DOM
+==============
+1) A virtual DOM is copy of original DOM. Whenever any modification has happen in the web application. 
+2) The entire UI is rerendered in virtual DOM representation.
+3) Then it checks the difference between DOM representation & virtual DOM only it updates if it is need
+
+5) Simplicity
+=============
+1) React JS uses JSX which makes the application simple & very easy to code as well as to understand.
+2) We know that react JS is component based approach which makes the code reusable as you needed.
+
+6) Performance
+==============
+1) React JS is known as good performer. This feature makes it much better than other libraries & frameworks.
+2) The reason behind this is that manages virtual DOM.
+
+What is main reason choosing to React Js?
+Why react is used to create user interface when we can create UI using HTML & JS
+
+1) Html
+=======
+User Inface(UI) - HTML
+> BY using predefined elements or tags.
+
+Advantages
+==========
+1) Using HTML creating user interface very easy.
+2) To create UI HTML is providing some HTML elements or tags.
+
+Drawback
+========
+1) We cannot reuse the UI.
+2) The time consuming to create UI.(<p><button> cannot be reused for another HTML page)
+ex: <p>Welcome to react JS class</p>
+    <button>Click Here</button
+
+2) JavaScript
+=============
+1) Predefined function are used to create UI.
+2) Predefined function inside DOM elements created.
+3) From DOM reflected to screen.
+
+Advantages
+==========
+1) JS we can create UI dynamically.
+2) We can reuse the UI.
+
+Drawbacks
+=========
+1) JS creating UI is very difficult.
+2) Time consuming.
+ex: <html>
+    <head> </head>
+    <body>
+	<script type="text/javascript">
+		function CreateButton(){
+			var btn=document.createElement('button')
+			btn.innerHTML="click here"
+			let body=document.body
+			body.append(btn)
+		}
+		CreateButton()
+		CreateButton()
+		CreateButton()
+		CreateButton()
+	</script>
+    </body>
+    </html>
+
+
+Difference Between HTML, JS & React Js
+======================================
+HTML
+=====
+Advantage: creating UI is easy.
+Disadvantage:  We cannot reuse it.
+
+JS
+==
+Advantage: We can reuse the UI
+Disadvantage: Create the UI is complex.
+
+React Js
+========
+Advantage: Creating UI is very very easy like HTML.
+Disadvantage: We can reuse the UI like JS.
+
+Diff of React JS & Angular JS
+DIff React Native & React JS
+
+13/11/2024
+Dev Requirements
+1) Node JS
+2) VS Code
+3) Browser
+
+To Install react application or CRA tool(Create React Application) Steps
+========================================================================
+1) Install Node JS
+2) Check Node JS - Version check in the Command Prompt(node -v)
+3) Create new folder on desktop (react)
+4) Open in VS Code
+5) Open terminal in VS Code 
+6) npx create-react-app folder name
+7) Happy Hacking(successfully created) - 
+8) cd react folder(happy)
+9) nmp start
+
+14/11/24
+1) node_modules => Necessary libraires
+2) public => index.html(get downloaded)
+	   > Accessed by user.
+
+React Folder Structure
+======================
+> In react application there are several files & folder in the root directory some of them as follows:
+1) node_modules 
+---------------
+> It contains react library & any other 3rd party libraries  
+> React_icon(website) visit.
+
+2) public
+---------
+> It holds the public assets of the application 
+> It contains the 
+1) index.html - where react will mount the application by default on the tag <div id="root"></div>
+
+3) src
+-------
+> It contains the
+1) app.css
+2) App.js - coding here done all - index.js(connected)
+3) index.js - connected to App.js
+4) index.css
+5) server worker.js files
+
+> Here App.js file always responsible for displaying the output in the screen.
+
+4) package-lock.json
+--------------------
+> It is generated automatically for any operation where npm package modifies either the node modules.
+> It cannot be published. It will be ignored if it is finds any other place rather than the top level package.
+
+5) package.json
+---------------
+> It holds various meta data required for the project. 
+
+15/11/24
+JSX
+===
+1) JSX stands for "JavaScript XML"
+2) It is a syntax extension for JavaScript, commonly used in react.
+3) It looks similar to HMTL, but it allows you to write HTML like elements within JavaScript code.
+4) JSX is not valid JavaScript, but it transforms into regular JavaScript by tools like "babel"(compiler) before begin executed by the browser.
+5) Combination of HTML & XML.
+
+Ex:  let heading=<h1>Welcome to react class</h1>
+
+Rules to write JSX
+==================
+1) JSX code should be always return in lowercase.
+2) JSX must return a single parent element.(means only 1 div can used, else error through)
+ex1: return(
+	<div>
+	  <p>Hello</p>
+	  <h1>Welcome</h1>
+	</div>
+    )
+	OUTPUT: Hello
+		Welcome
+
+ex2: return(
+	  <p>Hello</p>
+	  <h1>Welcome</h1>
+     )
+       OUTPUT: Error <> </>   (Avoid div errors "react fragment is used) disadvantage- 
+	
+3) The parent should be one for all elements such as <div>,<section>,<article>
+4) We can enclose JSX code inside the <React.Fragment>code......</React.Fragment> OR <>code......</> to avoid extra div errors we are using "React.Fragment". (import react from 'react') must do import. Disadvantage - Only acts as a parent, we cannot provide any class or id for reference.
+ex1: return(
+	<>
+	  <p>Hello</p>
+	  <h1>Welcome</h1>
+	</>
+    )
+
+ex2: return(
+	<React.Fragment>
+	  <p>Hello</p>
+	  <h1>Welcome</h1>
+	</React.Fragment>
+    )
+
+5) JSX elements must be properly closed.(means HTML tags) every tag in JSX must be self closed or have a closing tag.
+ex1: <img src="image address"/>(self closing) OR <img src="image address"></img> 
+
+6) JSX attribute use camel case HTML attributes like class, onclick attributes are must be written in "camel case"
+
+      HTML             JSX(camelcase)	
+ex1: class           className
+     onclick         onClick
+
+7) JS expression in JSX must be enclosed in curly{} brackets.
+ex: const name="Virat"
+    function fun(){
+    return(
+    <>
+    <h1>My name is {name}</h1>
+    </>
+    )
+    }
+
+8) JSX tags can have children's we can nest elements inside JSX tags & They will render as part of tree.(like tree way structure.) 
+ex:
+return(
+<>
+<div>
+   <div>
+     <p>Welcome</p>
+   </div>
+<div>
+</>
+
+9) shortcut key - (ctrl+/) is used to comments the lines.
+10) JSX attributes can accept JavaScript expressions.
+ex: 
+function App(){
+let imageUrl=" "
+let imgwidth="300px"
+   return(
+<>
+   <img scr={imageUrl} height="200px" width={imagewidth}></img>
+</>
+);
+}
+
+18/11/24
+IN JSX
+======
+> We can be used in 2 different ways in jsx.
+1) Creating external style sheet
+   > using inside the jsx code
+   > Example for creating external CSS file.
+2) CSS file should created inside src folder only 
+   METHOD-1
+   > We need connect CSS file to JS file.
+   > Create './css' file name.
+NOTE: WE should write CSS value in double quotes(" ") in js file to understand it is CSS value.
+   > The attribute name & property name should be in camel size.
+     EX: textAlign, backgroundColor, textSize
+
+JAVASCRIPT IN JSX
+=================
+1) To take dynamic values from javascipt to JSX we are using flower brackets({}).
+2) We can declare the values inside the components & we can access.
+3) We can declare the values outside the components & access them.
+4) We cannot create a values inside the JSX & we cannot return.
+
+INTERVIEW QUESTION - WHY WE NEED JSX
+====================================
+1) It makes your code more readable & easier to write by combining HTML like syntax & JavaScipt logic.
+2) It is tightly integrated with react which is focusses on building UI components.
+
+REACT ICONS
+===========
+1) If we need to add icons in react application we need to install icons library in react application.
+
+STEP 1) Search for "react icons" website. - click on 1st link
+STEP 2) Copy the Library Installation command.
+STEP 3) Install the library in react application folder.(1st link paste it on the command prompt, & 2nd one import on the jss file)
+
+19/11/24(Absent) - NASH ENERGY INTERVIEW
+Components
+==========
+> Building Component & Reusable.
+> The react components are used for building blocks of UI
+> They allows components to reuse.
+> The components will be having its own logic and controls in react.
+> In react we can nest one component inside another components
+
+In the react components we have two TYPES OF COMPONENTS:
+========================================================
+1) Functional components
+2) Class components
+
+20-11-24
+MAIN FEATURES
+=============
+1) JSX
+2) Components & types 
+
+1) Functional Components
+> In react JS we have mainly 2 types of components
+1) Functional Component
+2) Class components
+
+> By using "functional keyword or class" can created. 
+
+1) Functional Component
+> React JS functional component are some of the common components that will come across while working in React.
+> This Functional component is simple JavaScript function.(JSX return keyword is used)
+> We can create a functional component in react by writing a JS function.
+> This function may are may not receive data as parameter.
+> In functional component the return value or keyword used to return JSX code which will displayed DOM tree.
+
+2) CLASS COMPONENT
+==================
+> Class component are more complex than functional component.
+> It requires to "extend keyword" to call parent component.
+> The class component create a render function to return the JSX code.
+> You can pass data from one class component to another class component.
+> It is introduced before version of react 16.8.(Now current version is 18).
+> Class component now we are using only way to track the state in life cycle methods or components on the react component.
+
+21-11-24
+INTERVIEW QUESTION
+DIFFERENCE BETWEEN CLASS COMPONENT & FUNCTIONSAL COMPONENT
+==========================================================
+         
+1) Functional component is easy to create.                                        1) Class component is complex to create.
+2) Functional concept are fast in rendering.                                      2) Class component is little slow in rendering.
+3) We can assign any datatype value to the state.                                 3) State should be used inside object.
+4) React OOBS library can be used inside the functional component.                4) React OOBS library cannot used inside the class component.
+
+
+DISCUSSED
+=========
+1) What is React Js
+2) What are uses of React JS?
+3) What is library & Framework?
+4) What is the purpose of React Js?
+5) Diff between angular React
+6) Diff between React Js & React Native.
+7) /working of React application
+8) Features of React
+9) Advantages of React
+10) React Installation
+    1) npx create-react-app foldername
+    2) Change directory(cd happy)
+11) What is JSX & What are the rules to write the JSX(9 rules)
+12) How to add the CSS 
+13) How to add JS in JSX
+14) Why we need JSX
+15) What is components
+16) Types of components
+17) Nested component
+18) Component UI Tree.
+19) What is Functional Component.
+20) What is Class Component. 
+21) Difference between Functional & Class Component.
+22) React props(One way databinding)
+23) React stats(Virtual DOM)
+24) Performance(Advance library)
+25) How to add icons Libraries in React.(React icons-terminal paste-
+     
+22/11/24
+RECT PROPS
+==========
+> PROPS stands for properties.(Key value pairs)
+> PROPS are the fundamental concept in react for passing the data from  parent component to child component.
+> used to send the data from one parent to another child.
+> They are read only & allow components to be customized based on the data pass to them.
+> only before sending modification can do after the sending no modification.
+> "One Way Data Binding" & data cannot be changed.
+> The main use of PROPS we can dynamically reuse the components.
+> Unidirectional data can be pass only send from parent to child.
+
+HOW THE FUNCTIONAL COMPONENT RECEIVES THE PROPS?
+================================================
+> The functional component receives the PROPS as parameters.
+
+HOW THE CLASS COMPOENENT RECEIVES THE PROPS?
+============================================
+> The class component receives the PROPS via the "this.props".(Invoke the current object)
+
+HOW TO SEND THE PROPS TO THE COMPONENTS
+=======================================
+> We can send PROPS to the component as a attributes.
+> PROPS is a object 
+
+  <component_name name="virat" age=36/>
+  props={name:"virat",age:36}
+
+1) Functioanl components - parameter
+2) Class components - "this.props".
+3) To parent & child send as - attribute & value => Props receive as parameter.
+4) PROPS - key value pairs.
+
+UI
+|
+index.js(root file able to connect only index - not connecting to other files)
+|
+App.js(everything in Capital connecting to other files)
+|
+ParentComponent.js
+|
+ChildComponent.js
+
+UI
+|
+index.js(root file able to connect only index - not connecting to other files)
+|
+App.js(everything in Capital connecting to other files)
+|
+Book.js
+|
+Booklist.js
+
+25-11-24
+Default Props
+=============
+> The default props property can be added to functional component to default values for props.
+
+Destructing in JS
+=================
+> It is technique in JS to unpack object, array, property or elements & assigning a variables.
+> Types
+1) Object Destructing - unpacking a object assigning to the variable
+=====================
+#name,age,gender,city=>Key names
+
+let person{
+    name="Virat",
+    age=23,
+    gender="Male",
+    city="Bangalore"
+}
+const{name,age,gender,city}=Person
+console.log(name)
+console.log(age)
+console.log(gender)
+console.log(city)
+
+#name,age,gender,city=>Variable
+#observe same keynames has to be called.
+
+
+2) Array Destructing - unpacking a array element assigning to the variable
+====================
+
+var arr=[12,23,45,22,9]
+let[ele1,ele2,ele3,ele4,ele5]=arr
+console.log(ele1)
+console.log(ele2)
+console.log(ele3)
+console.log(ele4)
+console.log(ele5)
+
+Props Destructing
+=================
+> Props destructing in react functional components is common pattern that allows you to extract values directly form props concept making your
+  code cleaner and easier to read
+
+26-11-24
+React Props Validation
+======================
+> Props are the important mechanism for passing the data/read only attributes to components. 
+> The props are usually require take correct data from the user for that we are using props validation.
+> Props Validation Methods
+===========================
+1) PropTypes.any - Any kind of data can give ex-Boolean, string, num
+2) PropTypes.string - Only string type of data can give
+3) PropTypes.bool - Only Boolean type data can give
+4) PropTypes.num - Only Numerical type data can give
+5) PropType.object - It should accept only object data
+6) PropType.func - It should accept only function data
+
+MUST INSTALL THIS LIBRARY FOR VALIDATION
+========================================
+PS C:\Users\Pooja\OneDrive\Desktop\React\practice> npm install prop-types
+npm start
+
+ONLY BY USING A CLASS HERE IN OOPS WILL SEE FUNCTION(react 16 standard as per this version)
+===========================================================================================
+
+REACT STATE
+===========
+> A state is nothing but object that is privately maintained inside a component.
+> A state is influence what to be rendered in the browser.
+> A state can be changed within the component.
+> The state concept can used in class component in react 16 version but we are using react 18 version in this also we can use state inside function component but by using "hooks" library. 
+> The state is created inside the constructor in the class component as a object.
+
+27-11-24(absent)
+================
+difference between props & state
+
+Assignment - 1(notes)
+====================
+1. What is React?
+React is a JavaScript library for building user interfaces, primarily focused on creating reusable UI components for single-page applications.
+
+2. Key Features of React:
+Component-based architecture.
+Virtual DOM for faster rendering.
+One-way data binding.
+Declarative syntax.
+
+3. What problem does React solve in web development?
+React simplifies building complex UIs by breaking them into reusable components and efficiently updating only the necessary parts of the DOM.
+
+4. Is React a library or a framework?
+React is a JavaScript library, not a framework, as it focuses only on the view layer.
+
+5. How does React make it easier to build user interfaces?
+React uses reusable components and the Virtual DOM, allowing developers to efficiently build dynamic and interactive UIs.
+
+6. Steps to set up a basic React development environment:
+Install Node.js and npm.
+Use npx create-react-app my-app.
+Navigate to the app folder with cd my-app.
+
+7. How to start the development server and view the app in a browser?
+Run npm start in the project directory; the app will open automatically in your default web browser.
+
+8. Key files and folders in a new React application:
+src/: Contains source code.
+public/: Static files like index.html.
+package.json: Manages dependencies.
+
+9. What is Babel, and why is it used in React?
+Babel is a JavaScript transpiler that converts JSX and modern JavaScript features into browser-compatible code.
+
+10. JSX code to render a simple <div> element:
+<div>Hello, React!</div>
+11. Key difference between JSX and HTML in element attributes:
+In JSX, attributes use camelCase (e.g., className instead of class) and support JavaScript expressions.
+
+12. JSX code to render a <h1> element with "Hello, React!":
+<h1>Hello, React!</h1>
+
+13. How to apply CSS classes to JSX elements?
+Use the className attribute:
+
+<h1 className="title">Hello, React!</h1>
+
+28-11-24
+========
+14. What is react component & why is it important.
+=> 
+
+15. Difference between functional & class component
+
+16. Create a functional component called greeting that renders a<h1> element with greeting message of your choice.
+
+17. Develop a class based react component called counter that displays a number & has two buttons one for incrementing the number & one for decrementing the number.
+
+18. Implement a functional component called "person" that receives a "name" prop & display "hello,[name]".
+
+19. Explain the difference b/w state & props in react.
+
+20. How to pass data from parent component to a child component in react? Is it done through props or state?
+
+21. Describe a scenario in which you would use state to manage data within react component. Prove an example use case.
+
+22. What happens when you modify the state of a react component? How does react handle rendering?
+
+23. What are react events & How are they similar or different from standard HTML events?
+
+24. Describe the concept of the react event handling system & its advantage in building interactive web applications.
+
+25. Explain react component life cycle. What are the major phases & What happens during each phase.
+
+26. Create a react component renders a button. Implement an event handler that logs a message to the alert when button is clicked.
+
+28-11-24
+REACT COMPONENT LIFECYCLE 
+=========================
+1) In React Js every component creation process involves various lifecycle methods.
+2) These lifecycle methods are termed as components lifecycle.
+3) The component Lifecyle methods are related to "React Class Component". 
+   That consist of various phases(4 phases) 
+4) The lifecycle of the component has been divided into 4 Phases.(Refer Image is sent in Telepgram Group)
+   1) Initial phase
+   2) Mounting phase
+   3) Updating phase
+   4) Unmounting phase
+5) Each phase will be having different lifecycle methods.
+
+1) Initial phase 
+================
+1) setup props & state
+---------------------- 
+1) getDefaultProps() - It is used to specify the default value of the props like. (this.props) - acccessing
+                     - It is invoked before the creation of the component.
+2) getInitialState() - It is used to specify the default value of the state like. (this.state) - accessing 
+                     - It is invoked before the creation of the component. 
+
+2) Mounting phase
+=================
+1) componentWillMount() - It is invoked immediately before component gets render into the DOM.
+2) render() - This method is defined in each & every component. It is responsible for returning a single root element.(means JSX code).
+3) componentDidMount() - This is invoked immediately after a component gets rendered & placed on the DOM. After this method we can do DOM query operation.
+
+3) Updating phase
+=================
+1) componentWillReceiveProps() - It is invoked when a components receives new props.
+                               - If you want to update the state in reference of prop changes you should compare this.props with next props.
+2) shouldComponentUpdate() - It is invoked when component decides to update the state or props.
+3) componentWillUpdate() - It is invoked just before the component updating occurs here you cannot change the component state by invoking this.setState() method.
+4) componentDidUpdate() - It is invoked immediately after the component updating occurs. In this method you can put any code inside this. 
+ 
+4) Unmounting
+=============
+1) componentWillUnmount() - This method is invoked immediately before a component is destroyed & unmounting permanently. 
+                          - It performs all the necessary changes. 
+
+2/12/24
+CONDITIONAL RENDERING IN REACT
+==============================
+> React Conditional rendering allows you to render different UI elements or components based on certain condition.
+> This can be done by suing several methods such as JS conditional operators(if else, ternary operator) or logical operator like &&(and) and ||(or).
+
+1) component rendering
+2) tags rendering
+3) variable (ternary) rendering - conditional [false, true condition has to write)
+4) elements rendering
+5) && operator rendering 
+
+LOGICAL && OPERATOR
+===================
+> The "and(&&)" operator can be used when you want to render something only if the condition is "true".
+> SYNTAX: condition && //true statements
+> It is also called as "Short-Circuit" in react.
+> Only "true" values is takes not take "false".
+
+3-12-24(absent) - oaks system interview
+REACT LIST:
+===========
+LIST ARE USED DISPLAY DATA IN ORDERED OR UNORDERED WAY IN THE WEBPAGE THE MAP() FUNCTION IS USED TO TRANSEVERSING THE LIST.
+
+4/12/2024
+React Key Map
+=============
+> In react when rendering list or table we use "Map() function" & "Key props" is required for each element.
+> Key prop is special string attribute that helps react identify which items in the array have been added or changed or remove.
+> This help to react for efficient rendering the output.
+
+React Hooks
+===========
+> Hooks were added to the react in version 16.8
+> Hooks allow functional component to have access to state concept & other react features.
+
+Rules to write Hooks library
+============================
+1) Hooks can only be called inside react functional component.
+2) Hooks can only be called at the top level of the component.
+3) Hooks cannot be conditional.
+
+Different types of Hooks
+========================
+1) useState() - Most important(one form to another form, form validation) - Single work
+2) useEffect() - Parallel Work
+3) useRef() - Data should be saved Permanent
+4) useContext() - Parent to anyh child data can be accessed.
+5) customhook() - You can create your own hook.
+
+1) useState()
+=============
+State - It is a Special variable in functional component where we can store any type of data number, string, defined, object, Boolean etc..
+
+> Predefined function where it is comes from react library. It can return array of variables called "[state,setstate]=use
+
+state - current, special variable storing the current 
+setstate - act as updater function for state variable
+
+5-12-24
+1) useState()
+=============
+> React useState hook allows us to track state in a functional component.
+> State - Generally refers to the data or properties(It may be data or function). That need to be tracking in a component. 
+> To use "useState()" hook we first need to be import it into component. 
+> useState() initially accepts 2 things 
+  1) The current value
+  2) The function that updates state. 
+> const[state,setState]=useState()
+
+1) What is State? 
+=> State is special variable in react we can store any type of data.
+
+2) What is useState? 
+=> useState is  simple predefined JavaScript function which is coming from react library.
+=> useState will return one array which consist of exactly 2 elements i.e state and setState.
+=> first element is a state and second element is setState it is a updater function.
+
+3) What is setState?
+=> setState is predefined function in which is used to update state variable & re render the component.
+
+11/12/24
+=========
+Version changed so follow these steps
+=====================================
+1) Create folder in desktop name "ReactDemo"            
+2) Open the folder in VSCode
+3) Open the terminal & type the command.
+   npx create-react-app happy
+4) You will get error of React 19.0.0 version
+   Change the directory to happy folder
+   cd happy
+5) Change the react 19.0.0version to 18.2.0version.
+6) Command
+   npm install web-vitals
+7) To start server
+   npm start
+
+
+================ error(dependency error) =================
+npm config set legacy-peer-deps true
+==========================================================
+
+
+SHORTCUT KEY FOR BASIC STRUCTURE
+================================
+In a .js or .jsx file, type rfc and press Tab or Enter.
+
+12-12-2024
+useEffectHook()
+==============
+> The useEffectHook() in react is used to perform side effects in the function component.
+> Side effects means it may include data fetching or API calling, DOM manipulation.
+> It will replace he react lifecycle component methods(4 - initialising , mounting, updating, unmounting) such as 
+  1) componentDidMount()
+  2) componentdidUpdate()
+  3) componentWillUnMount()
+> This useEffect(setup, dependencies) 
+  setup - API setting using arrow format(This is parameter is mandatory)
+  dependencies - It is optional(This parameter is not compulsory)
+
+syntax: 
+=======
+
+import{useEffect} from 'react'
+
+useEffect(()=>{
+
+//side effects code here
+
+return()=>{  ----> return statement is used to cleanup code      
+
+//clean up code
+
+}
+}
+,[]  ----> It is dependency its optional 
+)
+
+==========================================================
+import {useEffect} from 'react'
+
+
+function Example1() {
+   const[count,setCount]= useState(0)
+   useEffect(()=>{
+    document.title=`the count is ${count}`
+    return ()=>{
+        console.log("Your code has been cleaned")
+    }
+   },[count]
+)
+
+   const incrementValue=()=>{
+
+16/12/204
+
+Custom Hooks
+============
+> Custom Hooks are user defined functions that encapsulated reusable logic allowing developer to abstract complex logic into custom hooks & share it across multiple components. 
+> Hook is created by ourself.
+
+//syntax:
+
+function useCustomHook(){
+//logic here
+
+return value
+
+}
+
+
+React Router
+============
+> In a single page react application routing refers to the process of navigation between different pages without triggering full page reload.
+> React router is a standard library for routing in react it enables a navigation among views of various components in a react application.
+> To implement routing in the application we need to install dependency for react router dom.
+
+command
+=======
+npm install react-router-dom@6
+
+> React router DOM offers several essential components for managing routing:
+
+>> Bowser Router: This component acts as the top-level container for your routing configuration. It manages the routing history, keeps the UI in sync with the URL, and provides context for other routing components.
+
+Syntax:
+
+import { BrowserRouter } from 'react-router-dom';
+function App() {
+return(
+<BrowserRouter>
+{/* Your routes and components here */
+</BrowserRouter>
+);
+
+>> Routes: Introduced in React Router v6, Routes is a container that encapsulates your route definitions. It ensures that only one route matches teh current URL at a time.
+
+Syntax:
+
+import { Routes, Route } from 'react-router-dom';
+function App() {
+return (
+<BrowserRouter>
+<Routes>
+<Route path="/" element={<Home/>} />
+<Route path="/about" element={<About/>} />
+</Routes>
+</BrowserRouter>
+);
+
+>> Route: This component defines a specific route pattern and the component to render than the URL matches that pattern. You can specify a path (exact URL match) or use regular expressions for more flexible matching.
+
+Syntax:
+
+import { Route } from 'react-router-dom';
+function App() {
+return (
+<BrowserRouter>
+<Routes>
+<Route path="/" element={<Home/>} />
+
+Write complete notes - mobile pic
+=================================
+
+for project 
+ npm install react-router-dom@6
+
+===========================================
+
+ npm install axios
+
+useEffect:-
+
+1) setfunction
+2) dependency
+
+18-12-2024
+
+Git(Don't Do)
+=============
+C:\Users\Pooja>git config --global user.name "Pooja Basawa"
+
+C:\Users\Pooja>git config --global user.email "poojabasawa27@gmail.com"
+
+================== Download git ===================
+1) Download git
+2) open telegram git link(project session)
+3) Open repositories - E-commerce - Copy link 
+4) Open VSCode source control - clone_repositories(paste)
+5) if you not found ctrl+shift+n = you will get clone repositors
+6) create one new folder - "name"(E-commerce) - open
+7) new terminal
+8) py -m pip install -r requirements.txt
+9) py manage.py migrate
+10) py -m pip install jwt
+11) py manage.py runserver
+12) open the link - E-commerce 
+
+
+
+
+
+

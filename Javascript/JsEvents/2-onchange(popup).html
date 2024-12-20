@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- onchange
+        onchange events get called upon changing of dropdown option -->
+        <!-- <select onchange="ChangeOption(event)">
+            <option value="one">one</option>
+            <option value="two">two</option>
+            <option value="three">three</option>
+            <option value="four">four</option>
+            <option value="five">five</option>
+        </select>
+        <script>
+            function ChangeOption(e){
+                alert("Dropdown value changed " +e.target.value)
+            }
+        </script>
+ -->
+        <select onchange="ChangeOption(this)">
+            <option value="one">red</option>
+            <option value="two">blue</option>
+            <option value="three">yellow</option>
+        </select>
+
+        <script>
+        function ChangeOption(p) {
+            alert("Dropdown value changed: " + p.value)
+        }
+        </script>
+
+    </body>
+</html>
